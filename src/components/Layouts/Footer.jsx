@@ -3,6 +3,7 @@ import { FaRegGem } from 'react-icons/fa';
 import { TfiWallet } from 'react-icons/tfi';
 import { SlEarphones } from 'react-icons/sl';
 import { PiUserListBold } from 'react-icons/pi';
+import { Link } from 'react-router-dom';
 import '../../assets/css/Layout.css';
 
 const Footer = () => {
@@ -10,22 +11,22 @@ const Footer = () => {
     {
       icon: <FaRegGem />,
       name: 'ပင်မ',
-      link: '/#',
+      link: '/',
     },
     {
       icon: <TfiWallet />,
       name: 'ပိုက်ဆံအိတ်',
-      link: '/#',
+      link: '/wallet',
     },
     {
       icon: <SlEarphones />,
       name: 'အကူအညီ',
-      link: '/#',
+      link: '/help',
     },
     {
       icon: <PiUserListBold />,
       name: 'ပရိုဖိုင်',
-      link: '/#',
+      link: '/profile',
     },
   ];
   return (
@@ -34,7 +35,12 @@ const Footer = () => {
         {links.map((link) => (
           <div key={link.name}>
             <span className='fs-4'>{link.icon}</span>
-            <small className='d-block'>{link.name}</small>
+            <small className='d-block'>
+              {' '}
+              <Link to={link.link} className='text-decoration-none text-white'>
+                {link.name}
+              </Link>
+            </small>
           </div>
         ))}
       </div>

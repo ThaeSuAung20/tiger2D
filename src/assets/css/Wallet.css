@@ -1,0 +1,34 @@
+.wallet-section {
+  padding-bottom: 150px;
+}
+.wallet {
+  width: 45% !important;
+  margin: 5px 3px 4px 3px;
+  border: 1px solid #000;
+}
+
+.sub-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 5px;
+  border-radius: 20px;
+  background: #185e2a;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.time-section {
+  display: block;
+  align-items: center;
+  background: #185e2a;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+/* .underline {
+  text-decoration-line: underline;
+} */
