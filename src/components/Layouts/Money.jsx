@@ -19,7 +19,7 @@ const Money = () => {
         <FiPlusCircle className='fs-4' />
       </div>
       <hr className='mx-3' />
-      <div className='d-flex justify-content-between mx-3 my-2'>
+      <div className='d-flex justify-content-between mx-3 my-2 py-2'>
         <FaRocketchat className='fs-3' />
         <small className='fw-bold'>ဂိမ်း ပိုက်ဆံအိတ်</small>
         <LuEye className='fs-4' />

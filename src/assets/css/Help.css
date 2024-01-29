@@ -1,0 +1,21 @@
+.help-text {
+  font-size: 14px;
+  color: #faf3f3;
+}
+
+.help-section {
+  background: #185e2a;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  text-align: start;
+  padding: 10px 10px 30px 10px;
+  line-height: 2.5rem;
+  margin-top: 50px;
+}
+
+.viber {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
