@@ -2,7 +2,7 @@ import React from 'react';
 
 const Index = () => {
   return (
-    <section className='indexSection'>
+    <section>
       <div className='showDigit mx-3 my-3'>
         <small className='px-3'>Feb 1, 2024, 5:32:50 PM</small>
         <div className='digit'>61</div>
@@ -33,13 +33,13 @@ const Index = () => {
             04:30 PM
           </small>
           <div className='d-flex justify-content-between mx-3'>
-            <div className='smallBox'>
-              <span className='fw-bold '>SET</span>
+            <div className='smallBox mx-auto'>
+              <span className='fw-bold'>SET</span>
               <div className='dashLine mx-auto mb-2 mt-1'></div>
               <span>1,369.92</span>
             </div>
-            <div className='smallBox'>
-              <span className='fw-bold '>VALUE</span>
+            <div className='smallBox mx-auto'>
+              <span className='fw-bold'>VALUE</span>
               <div className='dashLine mx-auto mb-2 mt-1'></div>
               <span>1,369.92</span>
             </div>
@@ -115,7 +115,9 @@ const Index = () => {
             <small className='d-block text-danger fw-bold mt-2'>61</small>
           </div>
         </div>
-        <button className='indexBtn mb-4'>ထိုးမည်</button>
+        <div className='d-flex justify-content-center'>
+          <button className='indexBtn mb-4'>ထိုးမည်</button>
+        </div>
       </div>
     </section>
   );

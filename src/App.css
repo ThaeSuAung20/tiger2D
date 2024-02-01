@@ -7,8 +7,10 @@ body {
 .App {
   background-image: url('../src/assets/img/greenbg.jpg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  height: 120vh;
+  height: 100vh;
+  background-attachment: fixed;
   max-width: 500px;
   margin: 0 auto;
   padding: 0;

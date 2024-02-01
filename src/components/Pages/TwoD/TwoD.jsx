@@ -65,30 +65,6 @@ const TwoD = () => {
         </div>
       </div>
       <div className='content text-white'>{tabs[activeTab].content}</div>
-
-      {/* <Tabs
-        defaultActiveKey='in'
-        transition={false}
-        id='noanim-tab-example'
-        className='d-flex justify-content-between px-3'
-      >
-        <Tab eventKey='in' className='text-center'>
-          <FaWpforms className='fs-5' />
-          <small className='d-block'>ထွက်ဂဏန်း</small>
-        </Tab>
-        <Tab className='text-center'>
-          <FaListUl className='fs-5' />
-          <small className='d-block'>မှတ်တမ်း</small>
-        </Tab>
-        <Tab className='text-center'>
-          <FaSitemap className='fs-5' />
-          <small className='d-block'>နိုင်သူများ</small>
-        </Tab>
-        <Tab className='text-center'>
-          <BsCalendar2Check className='fs-5' />
-          <small className='d-block'>ပိတ်ရက်များ</small>
-        </Tab>
-      </Tabs> */}
     </>
   );
 };
