@@ -115,8 +115,8 @@ const Index = () => {
             <small className='d-block text-danger fw-bold mt-2'>61</small>
           </div>
         </div>
+        <button className='indexBtn mb-4'>ထိုးမည်</button>
       </div>
-      <button className='indexBtn mb-4'>ထိုးမည်</button>
     </section>
   );
 };
