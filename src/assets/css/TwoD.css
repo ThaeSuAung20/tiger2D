@@ -1,0 +1,65 @@
+.indexSection {
+  background-image: url('../src/assets/img/greenbg.jpg');
+  padding-bottom: 10px;
+}
+
+.twoNav {
+  background: #185e2a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 10px;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+  width: max-content;
+}
+
+/* Index */
+.showDigit {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+  text-align: start;
+}
+
+.digit {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.smallBox {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  background: #185e2a;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+.dashLine {
+  border-bottom: 2px dotted #fff;
+  width: 100%;
+}
+.showBet {
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+.indexBtn {
+  position: fixed;
+  bottom: 0;
+  left: 47%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #185e2a;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}

@@ -4,7 +4,7 @@ import '../../assets/css/Wallet.css';
 import { CiCircleChevDown } from 'react-icons/ci';
 import { CiCircleChevUp } from 'react-icons/ci';
 import { FaArrowRightArrowLeft } from 'react-icons/fa6';
-import { FaBuilding } from 'react-icons/fa';
+import { FaLandmark } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Footer from '../Layouts/Footer';
 
@@ -59,7 +59,7 @@ const Wallet = () => {
               to='/wallet/bank-account'
               className='text-decoration-none text-white'
             >
-              <FaBuilding className='me-2' />
+              <FaLandmark className='me-2' />
               <small>ဘဏ်အကောင့်များ</small>
             </Link>
           </div>
