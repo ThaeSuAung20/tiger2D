@@ -5,15 +5,26 @@ import '../../assets/css/Layout.css';
 import { GrLanguage } from 'react-icons/gr';
 import { LuRefreshCw } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
+import { HiOutlineChevronLeft } from 'react-icons/hi';
+
 import Money from './Money';
 
-const Navbar = () => {
+const Navbar = ({ heading, icon }) => {
   return (
     <section className='navbar-section'>
       <div className='d-flex mx-2'>
-        <img src={Logo} width={60} height={60} />
+        {icon === 'true' ? (
+          <HiOutlineChevronLeft className='text-white fs-4 mt-2 me-3' />
+        ) : (
+          <img src={Logo} width={60} height={60} />
+        )}
 
-        <p className='text-white fs-5 pt-2'>DelightMyanmar</p>
+        {heading === '' ? (
+          <p className='text-white fs-5 pt-2'>DelightMyanmar</p>
+        ) : (
+          <p className='text-white fs-6 pt-2'>{heading}</p>
+        )}
+
         <LuRefreshCw className='text-white fs-5 ms-auto mt-3 me-2' />
       </div>
       <div className='d-flex justify-content-between mx-3 py-2'>

@@ -1,4 +1,4 @@
-.profile-item {
+.profileItem {
   display: flex;
   align-items: center;
   color: #fff;
@@ -8,7 +8,7 @@
   padding: 15px 10px;
 }
 
-.edit-nav {
+.editNav {
   background: #185e2a;
   text-align: start;
   font-size: 20px;
@@ -16,8 +16,18 @@
   padding: 20px 10px;
 }
 
-.edit-img {
+.editImg {
   width: 140px;
   height: 140px;
   border-radius: 50%;
+}
+
+.editBtn {
+  width: 100%;
+  background: #185e2a;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  box-shadow: none;
+  border-radius: 20px;
 }

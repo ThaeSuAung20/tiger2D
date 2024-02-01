@@ -4,6 +4,7 @@ import { LuEye } from 'react-icons/lu';
 import { LuEyeOff } from 'react-icons/lu';
 import { FiPlusCircle } from 'react-icons/fi';
 import { FaRocketchat } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import '../../assets/css/Layout.css';
 
 const Money = () => {
@@ -16,7 +17,9 @@ const Money = () => {
         <span>
           0 <small className='fw-bold'>ကျပ်</small>
         </span>
-        <FiPlusCircle className='fs-4' />
+        <Link to='/wallet/money-in' className='text-decoration-none text-white'>
+          <FiPlusCircle className='fs-4' />
+        </Link>
       </div>
       <hr className='mx-3' />
       <div className='d-flex justify-content-between mx-3 my-2 py-2'>
@@ -26,7 +29,12 @@ const Money = () => {
         <span>
           0 <small className='fw-bold'>ကျပ်</small>
         </span>
-        <FiPlusCircle className='fs-4' />
+        <Link
+          to='/wallet/money-transfer'
+          className='text-decoration-none text-white'
+        >
+          <FiPlusCircle className='fs-4' />
+        </Link>
       </div>
     </section>
   );
