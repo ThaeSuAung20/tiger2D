@@ -14,12 +14,12 @@ const Index = () => {
             <div className='smallBox'>
               <span className='fw-bold '>SET</span>
               <div className='dashLine mx-auto mb-2 mt-1'></div>
-              <span>1,369.92</span>
+              <span className='text-center'>1,369.92</span>
             </div>
             <div className='smallBox'>
               <span className='fw-bold '>VALUE</span>
               <div className='dashLine mx-auto mb-2 mt-1'></div>
-              <span>1,369.92</span>
+              <span className='text-center'>1,369.92</span>
             </div>
             <div className='smallBox'>
               <span className='fw-bold '>2D</span>
@@ -36,12 +36,12 @@ const Index = () => {
             <div className='smallBox mx-auto'>
               <span className='fw-bold'>SET</span>
               <div className='dashLine mx-auto mb-2 mt-1'></div>
-              <span>1,369.92</span>
+              <span className='text-center'>1,369.92</span>
             </div>
             <div className='smallBox mx-auto'>
               <span className='fw-bold'>VALUE</span>
               <div className='dashLine mx-auto mb-2 mt-1'></div>
-              <span>1,369.92</span>
+              <span className='text-center'>1,369.92</span>
             </div>
             <div className='smallBox'>
               <span className='fw-bold '>2D</span>
