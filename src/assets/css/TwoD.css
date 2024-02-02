@@ -11,9 +11,7 @@
 }
 
 .active {
-  border-bottom: 2px solid #fff;
-  width: max-content;
-  /* line-height: 20px; */
+  color: #000;
 }
 
 /* Index */
@@ -61,3 +59,38 @@
   border: none;
   padding: 10px 20px;
 }
+/* Index */
+
+/* History */
+.historyCard {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+/* History */
+
+/* WinnerList */
+.winnerCard {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+.winnerImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+/* WinnerList */
+
+/* Holiday */
+.holidayCard {
+  background: #fff;
+  color: #000;
+  border-left: 7px solid red;
+  border-radius: 8px;
+  text-align: start;
+  padding: 10px 15px;
+  line-height: 40px;
+}
+/* Holiday */

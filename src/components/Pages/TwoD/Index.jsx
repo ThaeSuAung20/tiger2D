@@ -115,9 +115,6 @@ const Index = () => {
             <small className='d-block text-danger fw-bold mt-2'>61</small>
           </div>
         </div>
-        <div className='d-flex justify-content-center'>
-          <button className='indexBtn mb-4'>ထိုးမည်</button>
-        </div>
       </div>
     </section>
   );

@@ -12,6 +12,7 @@ import MoneyTransfer from './components/Pages/MoneyTransfer';
 import MoneyIn from './components/Pages/MoneyIn';
 import BankAccount from './components/Pages/BankAccount';
 import TwoD from './components/Pages/TwoD/TwoD';
+import ThreeD from './components/Pages/ThreeD/ThreeD';
 
 function App() {
   return (
@@ -22,8 +23,12 @@ function App() {
 
           {/* TwoD Section */}
           <Route path='/twod/index' element={<TwoD />} />
-
           {/* TwoD Section */}
+
+          {/* ThreeD Section */}
+          <Route path='/threed/index' element={<ThreeD />} />
+
+          {/* ThreeD Section */}
 
           {/* Wallet Section */}
           <Route path='/wallet' element={<Wallet />} />

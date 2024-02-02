@@ -14,7 +14,7 @@ const PlayItem = () => {
     {
       image: Threed,
       name: 'သုံးလုံးထီ',
-      link: '/threed',
+      link: '/threed/index',
     },
   ];
 
