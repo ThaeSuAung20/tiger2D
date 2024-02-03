@@ -1,6 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.css';
+
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 import '../../assets/css/Layout.css';
 
 import carousel1 from '../../assets/img/carousels/carousel1.jpg';
@@ -15,26 +21,21 @@ const Carousel = () => {
       <Swiper
         spaceBetween={30}
         effect={'fade'}
+        navigation={true}
         pagination={{
-          clickable: false,
+          clickable: true,
         }}
-        className='mySwiper'
+        modules={[EffectFade, Navigation, Pagination]}
+        className="mySwiper"
       >
-        {banners.map((banner, index) => (
-          <SwiperSlide key={index}>
-            <div className='marquee-container'>
-              <img
-                src={banner}
-                className='w-100 carousel-img'
-                alt={`Slide ${index + 1}`}
-              />
-              <div className='marquee-text'>
-                Testing text and you can change this with every text that you
-                want
-              </div>
-            </div>
+        {
+          banners.map((banner)=>{
+            return <SwiperSlide>
+            <img src={banner} className="w-100"/>
           </SwiperSlide>
-        ))}
+          })
+        }
+        
       </Swiper>
     </div>
   );
