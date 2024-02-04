@@ -1,13 +1,16 @@
 import React from 'react';
 import '../../assets/css/Wallet.css';
-import { HiOutlineChevronLeft } from 'react-icons/hi';
+import { FiArrowLeft } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import { CiCircleChevDown } from 'react-icons/ci';
 
 const MoneyOut = () => {
   return (
     <section>
       <div className='moneyOut text-white'>
-        <HiOutlineChevronLeft className='me-3' />
+        <Link to='/wallet' className='text-white fs-5'>
+          <FiArrowLeft className='me-3' />
+        </Link>
         <span>ငွေထုတ်</span>
       </div>
       <form action='' className='mx-3 mt-4'>

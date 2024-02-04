@@ -42,8 +42,9 @@ const Wallet = () => {
               key={item.name}
               className='wallet mx-auto bg-white py-3 rounded text-dark '
             >
-              <span>{item.icon}</span>
               <Link to={item.link} className='text-decoration-none text-dark'>
+                <span>{item.icon}</span>
+
                 <small className='d-block fs'>{item.name}</small>
               </Link>
             </div>

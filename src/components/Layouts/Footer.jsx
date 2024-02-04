@@ -33,15 +33,12 @@ const Footer = () => {
     <section className='footer-section'>
       <div className='d-flex justify-content-around '>
         {links.map((link) => (
-          <div key={link.name}>
-            <span className='fs-4'>{link.icon}</span>
-            <small className='d-block'>
-              {' '}
-              <Link to={link.link} className='text-decoration-none text-white'>
-                {link.name}
-              </Link>
-            </small>
-          </div>
+          <Link to={link.link} className='text-decoration-none text-white'>
+            <div key={link.name}>
+              <span className='fs-4'>{link.icon}</span>
+              <small className='d-block'> {link.name}</small>
+            </div>
+          </Link>
         ))}
       </div>
     </section>

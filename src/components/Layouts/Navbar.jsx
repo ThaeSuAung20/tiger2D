@@ -5,7 +5,7 @@ import '../../assets/css/Layout.css';
 import { GrLanguage } from 'react-icons/gr';
 import { LuRefreshCw } from 'react-icons/lu';
 import { Link } from 'react-router-dom';
-import { HiOutlineChevronLeft } from 'react-icons/hi';
+import { FiArrowLeft } from 'react-icons/fi';
 
 import Money from './Money';
 
@@ -14,7 +14,9 @@ const Navbar = ({ heading, icon }) => {
     <section className='navbar-section'>
       <div className='d-flex mx-2'>
         {icon === 'true' ? (
-          <HiOutlineChevronLeft className='text-white fs-4 mt-2 me-3' />
+          <Link to='/wallet'>
+            <FiArrowLeft className='text-white fs-4 mt-2 me-3' />
+          </Link>
         ) : (
           <img src={Logo} width={60} height={60} />
         )}
